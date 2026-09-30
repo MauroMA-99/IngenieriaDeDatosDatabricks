@@ -13,7 +13,7 @@ dbutils.widgets.removeAll()
 
 # COMMAND ----------
 
-dbutils.widgets.text("storage-account", "adlssmartdata0704")
+dbutils.widgets.text("storage-account", "....")
 
 # COMMAND ----------
 
@@ -156,7 +156,7 @@ mount_adls("golden")
 # COMMAND ----------
 
 # MAGIC %fs
-# MAGIC ls "dbfs:/mnt/adlssmartdata0704/bronze/"
+# MAGIC ls "dbfs:/mnt/....../bronze/"
 
 # COMMAND ----------
 
